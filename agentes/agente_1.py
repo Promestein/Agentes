@@ -25,7 +25,6 @@ def andar(ambiente, posicao):
 def pegar(ambiente, posicao, pontuacao):
   pontuacao+=checarPosicao(ambiente, posicao)*10
   ambiente[posicao[0]][posicao[1]] = 0
-  print(pontuacao)
   return ambiente, pontuacao
 
 def voltar(ambiente, posicao):

@@ -51,7 +51,7 @@ def gerarAmbientePegandoPontos():
 
 def gerarPontos(ambiente, valor):
   pontos = [[0, 0]]
-  for i in range(0, 10, 1):
+  for i in range(0, 5, 1):
     diferente = True
     while diferente == True:
       x = randint(0, 19)
